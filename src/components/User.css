@@ -1,0 +1,28 @@
+.admin_card {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 400px;
+  height: 500px;
+  border: 1px solid green;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem;
+  align-items: center;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: aqua;
+  display: flex;
+}
+
+.logOut {
+  display: block;
+  width: 100%;
+  padding: 8px 32px;
+  margin-top: auto;
+  font-size: 2rem;
+  font-weight: 800;
+}
